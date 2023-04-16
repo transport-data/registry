@@ -1,0 +1,22 @@
+<str:AgencyScheme xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:data="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.1.0" isExternalReference="none" isFinal="none" agencyID="TDCI" id="TDCI" urn="urn:sdmx:org.sdmx.infomodel.base.AgencyScheme=TDCI:TDCI(0.1.0)">
+  <com:Annotations>
+    <com:Annotation id="tdc-generated">
+      <com:AnnotationText xml:lang="en">2023-04-16T20:01:49.051358 by transport_data v0.1.dev24+g6cb9501.d20230416</com:AnnotationText>
+    </com:Annotation>
+  </com:Annotations>
+  <com:Name xml:lang="en">Transport Data Commons Initiative partners and participants</com:Name>
+  <str:Agency id="TDCI">
+    <com:Name xml:lang="en">Transport Data Commons Initiative</com:Name>
+    <com:Description xml:lang="en">See https://transport-data.org</com:Description>
+  </str:Agency>
+  <str:Agency id="ADB">
+    <com:Name xml:lang="en">Asian Transport Outlook team at the Asian Development Bank</com:Name>
+    <com:Description xml:lang="en">See https://www.adb.org/what-we-do/topics/transport/asian-transport-outlook</com:Description>
+  </str:Agency>
+  <str:Agency id="JRC">
+    <com:Name xml:lang="en">Joint Research Centre of the European Commission</com:Name>
+    <com:Description xml:lang="en">See https://joint-research-centre.ec.europa.eu/index_en.
+
+Maintainers of the IDEES data set: https://data.jrc.ec.europa.eu/dataset/jrc-10110-10001</com:Description>
+  </str:Agency>
+</str:AgencyScheme>

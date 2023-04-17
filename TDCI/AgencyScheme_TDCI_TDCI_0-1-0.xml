@@ -1,22 +1,79 @@
 <str:AgencyScheme xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:data="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.1.0" isExternalReference="none" isFinal="none" agencyID="TDCI" id="TDCI" urn="urn:sdmx:org.sdmx.infomodel.base.AgencyScheme=TDCI:TDCI(0.1.0)">
   <com:Annotations>
     <com:Annotation id="tdc-generated">
-      <com:AnnotationText xml:lang="en">2023-04-16T20:01:49.051358 by transport_data v0.1.dev24+g6cb9501.d20230416</com:AnnotationText>
+      <com:AnnotationText xml:lang="en">2023-04-17T22:41:54.320127 by transport_data v0.1.dev24+g6cb9501.d20230416</com:AnnotationText>
     </com:Annotation>
   </com:Annotations>
   <com:Name xml:lang="en">Transport Data Commons Initiative partners and participants</com:Name>
   <str:Agency id="TDCI">
     <com:Name xml:lang="en">Transport Data Commons Initiative</com:Name>
     <com:Description xml:lang="en">See https://transport-data.org</com:Description>
+    <str:Contact>
+      <str:Role xml:lang="en">Organization team</str:Role>
+      <str:URI text="https://transport-data.org"/>
+      <str:Email text="kirsten.orschulok@giz.de"/>
+      <str:Email text="verena.knoell@giz.de"/>
+    </str:Contact>
+  </str:Agency>
+  <str:Agency id="EPT">
+    <com:Name xml:lang="en">Expert Prototype Team</com:Name>
+    <str:Parent>
+      <Ref id="TDCI" style="Ref"/>
+    </str:Parent>
+    <str:Contact>
+      <com:Name xml:lang="en">Paul Natsuo Kishimoto</com:Name>
+      <str:Role xml:lang="en">Admin for https://github.com/transport-data</str:Role>
+      <str:Email text="mail@paul.kishimoto.name"/>
+    </str:Contact>
+    <str:Contact>
+      <com:Name xml:lang="en">Marie Colson</com:Name>
+      <str:Email text="marie.colson@ifeu.de"/>
+    </str:Contact>
+    <str:Contact>
+      <com:Name xml:lang="en">Pierpaolo Cazzola</com:Name>
+      <str:Email text="pierpaolo.cazzola@gmail.com"/>
+    </str:Contact>
+    <str:Contact>
+      <com:Name xml:lang="en">James Dixon</com:Name>
+      <str:Email text="james.dixon@ouce.ox.ac.uk"/>
+    </str:Contact>
+    <str:Contact>
+      <com:Name xml:lang="en">Dominic Sheldon</com:Name>
+      <str:Email text="dominic.sheldon@ricardo.com"/>
+    </str:Contact>
+    <str:Contact>
+      <com:Name xml:lang="en">Alex Blackburn</com:Name>
+      <str:Email text="blackburna@un.org"/>
+    </str:Contact>
+    <str:Contact>
+      <com:Name xml:lang="en">Fran&#231;ois Cuenot</com:Name>
+      <str:Email text="francois.cuenot@un.org"/>
+    </str:Contact>
   </str:Agency>
   <str:Agency id="ADB">
     <com:Name xml:lang="en">Asian Transport Outlook team at the Asian Development Bank</com:Name>
     <com:Description xml:lang="en">See https://www.adb.org/what-we-do/topics/transport/asian-transport-outlook</com:Description>
+    <str:Contact>
+      <com:Name xml:lang="en">James Leather</com:Name>
+      <str:Email text="jleather@adb.org"/>
+    </str:Contact>
+    <str:Contact>
+      <com:Name xml:lang="en">Cornie Huizenga</com:Name>
+      <str:Email text="chuizenga@cesg.biz"/>
+    </str:Contact>
+    <str:Contact>
+      <com:Name xml:lang="en">Sudhir Gota</com:Name>
+      <str:Email text="sudhirgota@gmail.com"/>
+    </str:Contact>
   </str:Agency>
   <str:Agency id="JRC">
     <com:Name xml:lang="en">Joint Research Centre of the European Commission</com:Name>
     <com:Description xml:lang="en">See https://joint-research-centre.ec.europa.eu/index_en.
 
 Maintainers of the IDEES data set: https://data.jrc.ec.europa.eu/dataset/jrc-10110-10001</com:Description>
+    <str:Contact>
+      <com:Name xml:lang="en">Jacopo Tattini</com:Name>
+      <str:Email text="Jacopo.TATTINI@ec.europa.eu"/>
+    </str:Contact>
   </str:Agency>
 </str:AgencyScheme>

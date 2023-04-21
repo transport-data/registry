@@ -1,0 +1,5 @@
+Files in this directory are ignored, per the .gitignore file.
+
+These files are retrieve from the data provider's API, which serves as
+the authoritative source. On a user's system, this directory is used as
+a local cache.

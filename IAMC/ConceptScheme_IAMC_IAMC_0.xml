@@ -1,0 +1,26 @@
+<str:ConceptScheme xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:data="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" isExternalReference="none" isFinal="none" agencyID="IAMC" id="IAMC" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IAMC:IAMC(None)">
+  <com:Annotations>
+    <com:Annotation id="tdc-generated">
+      <com:AnnotationText xml:lang="en">2023-04-23T12:09:45.002129 by transport_data v0.1.dev24+g6cb9501.d20230416</com:AnnotationText>
+    </com:Annotation>
+  </com:Annotations>
+  <com:Name xml:lang="en">Concepts in the IAMC data model</com:Name>
+  <str:Concept id="MODEL">
+    <com:Name xml:lang="en">Model name</com:Name>
+  </str:Concept>
+  <str:Concept id="SCENARIO">
+    <com:Name xml:lang="en">Model configuration or parametrization</com:Name>
+  </str:Concept>
+  <str:Concept id="REGION">
+    <com:Name xml:lang="en">Geographical area</com:Name>
+  </str:Concept>
+  <str:Concept id="VARIABLE">
+    <com:Name xml:lang="en">Measure and additional dimensions</com:Name>
+  </str:Concept>
+  <str:Concept id="UNIT">
+    <com:Name xml:lang="en">Unit of measurement</com:Name>
+  </str:Concept>
+  <str:Concept id="YEAR">
+    <com:Name xml:lang="en">Time period</com:Name>
+  </str:Concept>
+</str:ConceptScheme>

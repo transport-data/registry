@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:md="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:data="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer">
+  <mes:Header>
+    <mes:Test>false</mes:Test>
+  </mes:Header>
+  <mes:Structures>
+    <str:Codelists>
+      <str:Codelist version="0.1" isExternalReference="false" isFinal="false" agencyID="TDCI" id="OICA_GEO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=TDCI:OICA_GEO(0.1)">
+        <com:Annotations>
+          <com:Annotation id="tdc-generated">
+            <com:AnnotationText xml:lang="en">2024-02-05T22:04:44.230229 by transport_data v0.1.dev53+gabc52e3.d20230427</com:AnnotationText>
+          </com:Annotation>
+        </com:Annotations>
+        <str:Code id="0">
+          <com:Name xml:lang="en">AFRICA</com:Name>
+        </str:Code>
+        <str:Code id="1">
+          <com:Name xml:lang="en">ALL COUNTRIES/REGIONS</com:Name>
+        </str:Code>
+        <str:Code id="2">
+          <com:Name xml:lang="en">AMERICA</com:Name>
+        </str:Code>
+        <str:Code id="AR">
+          <com:Name xml:lang="en">Argentina</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="3">
+          <com:Name xml:lang="en">ASEAN</com:Name>
+        </str:Code>
+        <str:Code id="4">
+          <com:Name xml:lang="en">ASIA/OCEANIA/MIDDLE EAST</com:Name>
+        </str:Code>
+        <str:Code id="AU">
+          <com:Name xml:lang="en">Australia</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="AT">
+          <com:Name xml:lang="en">Austria</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="BE">
+          <com:Name xml:lang="en">Belgium</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="BR">
+          <com:Name xml:lang="en">Brazil</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="BG">
+          <com:Name xml:lang="en">Bulgaria</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="CA">
+          <com:Name xml:lang="en">Canada</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="5">
+          <com:Name xml:lang="en">CENTRAL &amp; SOUTH AMERICA</com:Name>
+        </str:Code>
+        <str:Code id="CL">
+          <com:Name xml:lang="en">Chile</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="CN">
+          <com:Name xml:lang="en">China</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="CO">
+          <com:Name xml:lang="en">Colombia</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="HR">
+          <com:Name xml:lang="en">Croatia</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="CZ">
+          <com:Name xml:lang="en">Czechia</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="DK">
+          <com:Name xml:lang="en">Denmark</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="EC">
+          <com:Name xml:lang="en">Ecuador</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="EG">
+          <com:Name xml:lang="en">Egypt</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="6">
+          <com:Name xml:lang="en">EU 27 countries + EFTA + UK</com:Name>
+        </str:Code>
+        <str:Code id="7">
+          <com:Name xml:lang="en">EUROPE</com:Name>
+        </str:Code>
+        <str:Code id="FI">
+          <com:Name xml:lang="en">Finland</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="FR">
+          <com:Name xml:lang="en">France</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="DE">
+          <com:Name xml:lang="en">Germany</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="GR">
+          <com:Name xml:lang="en">Greece</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="HU">
+          <com:Name xml:lang="en">Hungary</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="IN">
+          <com:Name xml:lang="en">India</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="ID">
+          <com:Name xml:lang="en">Indonesia</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="IE">
+          <com:Name xml:lang="en">Ireland</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="IL">
+          <com:Name xml:lang="en">Israel</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="IT">
+          <com:Name xml:lang="en">Italy</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="JP">
+          <com:Name xml:lang="en">Japan</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="8">
+          <com:Name xml:lang="en">KAZAKHSTAN*</com:Name>
+        </str:Code>
+        <str:Code id="KW">
+          <com:Name xml:lang="en">Kuwait</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="MY">
+          <com:Name xml:lang="en">Malaysia</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="MX">
+          <com:Name xml:lang="en">Mexico</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="MA">
+          <com:Name xml:lang="en">Morocco</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="9">
+          <com:Name xml:lang="en">NAFTA</com:Name>
+        </str:Code>
+        <str:Code id="NL">
+          <com:Name xml:lang="en">Netherlands</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="NZ">
+          <com:Name xml:lang="en">New Zealand</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="NO">
+          <com:Name xml:lang="en">Norway</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="10">
+          <com:Name xml:lang="en">OTHER COUNTRIES</com:Name>
+        </str:Code>
+        <str:Code id="11">
+          <com:Name xml:lang="en">OTHER COUNTRIES/REGIONS</com:Name>
+        </str:Code>
+        <str:Code id="PK">
+          <com:Name xml:lang="en">Pakistan</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="PE">
+          <com:Name xml:lang="en">Peru</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="PH">
+          <com:Name xml:lang="en">Philippines</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="PL">
+          <com:Name xml:lang="en">Poland</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="PT">
+          <com:Name xml:lang="en">Portugal</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="PR">
+          <com:Name xml:lang="en">Puerto Rico</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="RO">
+          <com:Name xml:lang="en">Romania</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="RU">
+          <com:Name xml:lang="en">Russian Federation</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="12">
+          <com:Name xml:lang="en">RUSSIA, TURKEY &amp; OTHER EUROPE</com:Name>
+        </str:Code>
+        <str:Code id="SA">
+          <com:Name xml:lang="en">Saudi Arabia</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="SK">
+          <com:Name xml:lang="en">Slovakia</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="SI">
+          <com:Name xml:lang="en">Slovenia</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="ZA">
+          <com:Name xml:lang="en">South Africa</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="KR">
+          <com:Name xml:lang="en">Korea, Republic of</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="SE">
+          <com:Name xml:lang="en">Sweden</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="CH">
+          <com:Name xml:lang="en">Switzerland</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="TW">
+          <com:Name xml:lang="en">Taiwan, Province of China</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="TH">
+          <com:Name xml:lang="en">Thailand</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="13">
+          <com:Name xml:lang="en">TOTAL OICA MEMBERS</com:Name>
+        </str:Code>
+        <str:Code id="TR">
+          <com:Name xml:lang="en">Türkiye</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="UA">
+          <com:Name xml:lang="en">Ukraine</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="AE">
+          <com:Name xml:lang="en">United Arab Emirates</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="GB">
+          <com:Name xml:lang="en">United Kingdom</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="US">
+          <com:Name xml:lang="en">United States</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="UZ">
+          <com:Name xml:lang="en">Uzbekistan</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="VN">
+          <com:Name xml:lang="en">Viet Nam</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="ES">
+          <com:Name xml:lang="en">Spain</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="DZ">
+          <com:Name xml:lang="en">Algeria</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="BY">
+          <com:Name xml:lang="en">Belarus</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="IR">
+          <com:Name xml:lang="en">Iran, Islamic Republic of</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="IQ">
+          <com:Name xml:lang="en">Iraq</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="KZ">
+          <com:Name xml:lang="en">Kazakhstan</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="LY">
+          <com:Name xml:lang="en">Libya</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="NG">
+          <com:Name xml:lang="en">Nigeria</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="RS">
+          <com:Name xml:lang="en">Serbia</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="SY">
+          <com:Name xml:lang="en">Syrian Arab Republic</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+        <str:Code id="VE">
+          <com:Name xml:lang="en">Venezuela, Bolivarian Republic of</com:Name>
+          <com:Description xml:lang="en">Identical to the ISO 3166-1 entry</com:Description>
+        </str:Code>
+      </str:Codelist>
+    </str:Codelists>
+  </mes:Structures>
+</mes:Structure>

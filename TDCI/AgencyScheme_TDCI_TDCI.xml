@@ -5,11 +5,11 @@
   </mes:Header>
   <mes:Structures>
     <str:OrganisationSchemes>
-      <str:AgencyScheme version="0.1.0" isExternalReference="none" isFinal="none" agencyID="TDCI" id="TDCI" urn="urn:sdmx:org.sdmx.infomodel.base.AgencyScheme=TDCI:TDCI(0.1.0)">
+      <str:AgencyScheme version="0.0.0" isExternalReference="none" isFinal="none" agencyID="TDCI" id="TDCI" urn="urn:sdmx:org.sdmx.infomodel.base.AgencyScheme=TDCI:TDCI(0.0.0)">
         <com:Name xml:lang="en">Transport Data Commons Initiative partners and participants</com:Name>
         <com:Annotations>
           <com:Annotation id="tdc-generated">
-            <com:AnnotationText xml:lang="en">2023-12-21T13:07:10.804773 by transport_data v23.5.11rc1</com:AnnotationText>
+            <com:AnnotationText xml:lang="en">2023-12-21T21:49:39.434482 by transport_data v23.5.11rc1</com:AnnotationText>
           </com:Annotation>
         </com:Annotations>
         <str:Agency id="TDCI">

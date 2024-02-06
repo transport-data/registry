@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:md="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:data="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer">
+  <mes:Header>
+    <mes:Test>false</mes:Test>
+  </mes:Header>
+  <mes:Structures>
+    <str:Dataflows>
+      <str:Dataflow version="0.1" isExternalReference="false" isFinal="true" agencyID="TDCI" id="DF_OICA_STOCK_AAGR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataflowDefinition=TDCI:DF_OICA_STOCK_AAGR(0.1)">
+        <com:Annotations>
+          <com:Annotation id="tdc-generated">
+            <com:AnnotationText xml:lang="en">2024-02-05T22:04:44.083304 by transport_data v0.1.dev53+gabc52e3.d20230427</com:AnnotationText>
+          </com:Annotation>
+        </com:Annotations>
+        <str:Structure>
+          <Ref id="DS_OICA_STOCK_AAGR" version="0.1" agencyID="TDCI" package="datastructure" class="DataStructure"/>
+        </str:Structure>
+      </str:Dataflow>
+    </str:Dataflows>
+  </mes:Structures>
+</mes:Structure>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:md="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:data="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/structurespecific" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer">
+  <mes:Header>
+    <mes:Test>false</mes:Test>
+  </mes:Header>
+  <mes:Structures>
+    <str:DataStructures>
+      <str:DataStructure version="0.1" isExternalReference="false" isFinal="true" agencyID="TDCI" id="DS_OICA_STOCK_AAGR" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructureDefinition=TDCI:DS_OICA_STOCK_AAGR(0.1)">
+        <com:Annotations>
+          <com:Annotation id="tdc-generated">
+            <com:AnnotationText xml:lang="en">2024-02-05T22:04:44.088587 by transport_data v0.1.dev53+gabc52e3.d20230427</com:AnnotationText>
+          </com:Annotation>
+        </com:Annotations>
+        <str:DataStructureComponents>
+          <str:DimensionList id="">
+            <str:Dimension position="1" id="GEO">
+              <str:ConceptIdentity>
+                <Ref id="GEO" maintainableParentVersion="0.1" maintainableParentID="OICA_CONCEPTS" agencyID="TDCI" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="OICA_GEO" version="0.1" agencyID="TDCI" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension position="2" id="VEHICLE_TYPE">
+              <str:ConceptIdentity>
+                <Ref id="VEHICLE_TYPE" maintainableParentVersion="0.1" maintainableParentID="OICA_CONCEPTS" agencyID="TDCI" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation/>
+            </str:Dimension>
+            <str:Dimension position="3" id="TIME_PERIOD">
+              <str:ConceptIdentity>
+                <Ref id="TIME_PERIOD" maintainableParentVersion="0.1" maintainableParentID="OICA_CONCEPTS" agencyID="TDCI" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation/>
+            </str:Dimension>
+          </str:DimensionList>
+          <str:AttributeList id="">
+            <str:Attribute id="UNIT_MEASURE">
+              <str:ConceptIdentity>
+                <Ref id="TIME_PERIOD" maintainableParentVersion="0.1" maintainableParentID="OICA_CONCEPTS" agencyID="TDCI" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:Attribute>
+          </str:AttributeList>
+          <str:MeasureList id="">
+            <str:PrimaryMeasure id="OBS_VALUE">
+              <str:ConceptIdentity>
+                <Ref id="TIME_PERIOD" maintainableParentVersion="0.1" maintainableParentID="OICA_CONCEPTS" agencyID="TDCI" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        </str:DataStructureComponents>
+      </str:DataStructure>
+    </str:DataStructures>
+  </mes:Structures>
+</mes:Structure>
